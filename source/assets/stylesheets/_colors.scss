@@ -1,0 +1,22 @@
+$white: #ffffff;
+
+$camel: #C2A16D;
+$orange: #F17022;
+
+$foundation-palette: (
+  primary: $camel,
+  secondary: $orange,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #ec5840,
+);
+
+$body-background: $light-gray;
+
+$body-font-family: 'Montserrat', sans-serif;
+$header-font-family: $body-font-family;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$global-font-size: 120%;
