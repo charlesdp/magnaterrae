@@ -4,8 +4,29 @@ description: 'Write less code, solve more problems'
 twitter_card_img: ''
 ---
 
-.row
-  .small-12.columns
-    h1 = data.settings.site.title
-    p = data.settings.site.description
-    = link_to 'Get started', data.settings.site.url
+.row.expanded
+  .small-8.columns
+    markdown:
+      ## Who are we ?
+
+      Magna Terrae is an online platform, bridging the gap between Organic Growers and the UK catering industry.
+
+      ### What do we do?
+
+      The way we work is we first get approach by Organic Growers and ask them to send us samples. Second, our team carefully tastes all juices and selects those that we unanimously considered to be exceptional. Third, we provide to our selected growers our customised labels, displaying their name, location and picture, we make sure they are ready for the UK market. Finally, we supply those products in London to restaurant and hotels.
+
+      ### Our mission?
+
+      Magna Terrae’s mission is to deliver in a sustainable way what the love and work of nature does best. Period.
+
+      ### Our pricing?
+
+      Is fully transparent! Under our advises, the grower sets the price of his product. Afterwards, we add our variable costs (transport and labelling), then add a 30% margin.
+
+      — No more no less.
+
+  .small-4.columns
+    = image_tag 'products/Organic-Grape-Juice.jpg'
+
+
+= partial 'views/reviews'

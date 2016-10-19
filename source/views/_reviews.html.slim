@@ -1,0 +1,9 @@
+.row.align-center
+  .medium-6.columns
+    - data.reviews.each do |review|
+      blockquote
+        = review.quote
+        cite
+          => review.name
+          '—
+          = review.job
