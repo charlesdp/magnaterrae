@@ -4,4 +4,6 @@
 @import 'foundation-sites/scss/foundation';
 @import 'colors';
 
+$global-flexbox: true;
+
 @include foundation-everything(true);
