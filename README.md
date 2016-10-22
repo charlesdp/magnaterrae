@@ -38,9 +38,9 @@ Start your project
 
     $ cd ~/path/to/your/project
     $ middleman init awesome-project --template=flexbox/codeless
-    
+
 :warning: This project is not __Middleman 4 ready__, due to nightmare dependency with `middleman-deploy`.
-    
+
 ### Dependencies
 
 You need [Bundler](http://bundler.io/) to install gems
@@ -74,13 +74,14 @@ Vendor stylesheets and JavaScripts should go in each of their `/bower_components
 
 ### Browser preview
 
-    middleman server
+    $ middleman server
+    $ bundle exec middleman server
 
 ### Deploying to GitHub Pages
 
-    middleman build
-    middleman deploy
-    
+    $ middleman build
+    $ middleman deploy
+
 Note :
 - If you get an error with `middleman build`, make sure [Imagemagik](http://www.imagemagick.org/script/index.php) is installed `brew install imagemagick`
 - If you deploy on Github pages, don't forget to uncomment these two lines in `config.rb` :
