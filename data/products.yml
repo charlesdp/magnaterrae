@@ -4,37 +4,32 @@
   container: 33cl
   picture: Artisanal-Apple-and-Pear-Juice.jpg
 -
-  name: "Artisanal Apple & Pear Juice"
-  description: An authentic mix of pears and apples. Tastes beautiful. Artisanal Product. Workshop Pressed.
-  container: 33cl
-  picture: Artisanal-Apple-and-Pear-Juice.jpg
+  name: "Artisanal Apple & Kiwi Nectar"
+  description: Mashed kiwis with apple juice. Beautiful. Artisanal Product. Workshop pressed.
+  container: 25cl
+  picture: Artisanal-Apple-Kiwi-Nectar.jpg
 -
-  name: "Artisanal Apple & Pear Juice"
-  description: An authentic mix of pears and apples. Tastes beautiful. Artisanal Product. Workshop Pressed.
+  name: "Organic Apple & Blackberry Juice"
+  description: Thin, light, fresh and authentic. Beautiful apple juice enliven by blackberries. Workshop pressed. 100% Organic.
   container: 33cl
-  picture: Artisanal-Apple-and-Pear-Juice.jpg
+  picture: Organic-Apple-and-Mulberry-Juice.jpg
 -
-  name: "Artisanal Apple & Pear Juice"
-  description: An authentic mix of pears and apples. Tastes beautiful. Artisanal Product. Workshop Pressed.
-  container: 33cl
-  picture: Artisanal-Apple-and-Pear-Juice.jpg
+  name: "Artisanal Apple & Apricot Nectar"
+  description: Between a juice and a nectar. Mashed Apricot with apple juice. Artisanal product. Workshop pressed.
+  container: 25cl
+  picture: Artisanal-Apple-Apricot-Juice.jpg
 -
-  name: "Artisanal Apple & Pear Juice"
-  description: An authentic mix of pears and apples. Tastes beautiful. Artisanal Product. Workshop Pressed.
+  name: "Organic Apple Juice"
+  description: Permaculture grown "Medium" Apple. Not too sweet nor too dry, it tastes just beautiful. Farm pressed. 100% Organic.
   container: 33cl
-  picture: Artisanal-Apple-and-Pear-Juice.jpg
+  picture: Organic-Apple-Juice.jpg
 -
-  name: "Artisanal Apple & Pear Juice"
-  description: An authentic mix of pears and apples. Tastes beautiful. Artisanal Product. Workshop Pressed.
+  name: "Organic Apple & Raspberry Juice"
+  description: Permaculture grown Apple & Raspberry Juice. Apple juice enriched by fresh raspberries. Farm pressed. 100% organic.
   container: 33cl
-  picture: Artisanal-Apple-and-Pear-Juice.jpg
+  picture: Organic-Apple-&-Raspberry-Juice.jpg
 -
-  name: "Artisanal Apple & Pear Juice"
-  description: An authentic mix of pears and apples. Tastes beautiful. Artisanal Product. Workshop Pressed.
-  container: 33cl
-  picture: Artisanal-Apple-and-Pear-Juice.jpg
--
-  name: "Artisanal Apple & Pear Juice"
-  description: An authentic mix of pears and apples. Tastes beautiful. Artisanal Product. Workshop Pressed.
-  container: 33cl
-  picture: Artisanal-Apple-and-Pear-Juice.jpg
+  name: "Artisanal Cherry Nectar"
+  description: Sun grown cherries & mineral water. Artisanal Product. Workshop pressed.
+  container: 25cl
+  picture: Artisanal-Cherry-Nectar.jpg
