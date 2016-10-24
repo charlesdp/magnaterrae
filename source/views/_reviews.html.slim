@@ -1,5 +1,9 @@
+
 .row.align-center
-  .medium-6.columns
+  .medium-5.columns
+    - data.reviews.each do |review|
+      = image_tag "reviewers/#{review.picture}", alt: review.name
+  .medium-5.columns
     - data.reviews.each do |review|
       blockquote
         = review.quote
