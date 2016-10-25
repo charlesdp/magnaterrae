@@ -1,8 +1,8 @@
 
 .row.align-center
-  .medium-5.columns
+  .medium-4.columns
     - data.reviews.each do |review|
-      = image_tag "reviewers/#{review.picture}", alt: review.name
+       .avatar = image_tag "reviewers/#{review.picture}", alt: review.name
   .medium-5.columns
     - data.reviews.each do |review|
       blockquote

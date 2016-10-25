@@ -1,7 +1,8 @@
-$avatar: (
-  width: 20px,
-  height: 20px,
-  background-size: cover,
-  background-position: center,
-  border-radius: 50%,
-  );
+.avatar {
+  width: 180px;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  }
