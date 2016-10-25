@@ -1,15 +1,15 @@
 ---
-title: Products
+title: Products small
 description: 'Organic juices'
 ---
 
 .row
   .small-12.columns
     h1 Products
-    p Our 25 & 33 Selection
+    p Our 25 & 33 selection
 
 .row
-  - data.products.each do |product|
+  - data.productssmall.each do |product|
     .small-12.medium-6.columns
       .row
         .small-4.columns
@@ -23,6 +23,10 @@ description: 'Organic juices'
   small-12.columns
     h3 Your first litter is on us! Collect your present
     = link_to 'Here', '/products', class: 'button large'
+    markdown:
+          - Show the values you stand for
+          - Stop worrying about shelf life
+          - Get amazing products!
 
-.row
+
 
