@@ -1,0 +1,13 @@
+.row
+  .small-12.columns
+    h1 Our growers
+
+.row
+  - data.growers.each do |grower|
+    .small-12.medium-5.columns
+      = image_tag "growers/#{grower.picture}", alt: grower.name
+    .small-12.medium-5.columns
+      h3 = grower.name
+      p = grower.description
+      p = grower.products
+      = link_to "here", grower.link
