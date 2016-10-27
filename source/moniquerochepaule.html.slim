@@ -3,9 +3,10 @@ title: Monique Rochepaule
 description: 'Profile'
 ---
 
-.row
-  .small-12.columns
-    h2 Our growers
+.section
+  .row
+    .small-12.columns
+      h2 Our growers
 
 .row.align-middle
     .small-12.medium-6.columns
@@ -14,20 +15,24 @@ description: 'Profile'
       h4 = data.growers[4]["name"]
       p = data.growers[4]["description"]
 
-.row.align-center
-  .medium-9.columns
-    p = data.growers[4]["story"]
+.section
+  .row.align-center
+    .medium-9.columns
+      p = data.growers[4]["story"]
 
 .row
   .small-12.columns
     h4 = "Monique's products"
 
-.row
-  .small-12.medium-6.columns
-    .row
-      .small-4.columns
-        = image_tag data.productssmall[6]["picture"], alt: data.productssmall[6]["name"]
-      .small-8.columns
-        h4 = data.productssmall[6]["name"]
-        p = data.productssmall[6]["description"]
-        p = data.productssmall[6]["container"]
+.section
+  .row
+    .small-12.medium-6.columns
+      .row
+        .small-4.columns
+          = image_tag data.productssmall[6]["picture"], alt: data.productssmall[6]["name"]
+        .small-8.columns
+          h4 = data.productssmall[6]["name"]
+          p = data.productssmall[6]["description"]
+          p = data.productssmall[6]["container"]
+
+.product-spacer

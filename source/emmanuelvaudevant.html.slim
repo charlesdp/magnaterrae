@@ -3,9 +3,10 @@ title: Emmanuel Vaudevant
 description: 'Profile'
 ---
 
-.row
-  .small-12.columns
-    h2 Our growers
+.section
+  .row
+    .small-12.columns
+      h2 Our growers
 
 .row.align-middle
     .small-12.medium-6.columns
@@ -14,16 +15,18 @@ description: 'Profile'
       h4 = data.growers[2]["name"]
       p = data.growers[2]["description"]
 
-.row.align-center
-  .medium-9.columns
-    p = data.growers[2]["story"]
+.section
+  .row.align-center
+    .medium-9.columns
+      p = data.growers[2]["story"]
+
+.section
+  .row
+    .small-12.columns
+      h4 = "Emmanuel's products"
 
 .row
-  .small-12.columns
-    h4 = "Emmanuel's products"
-
-.row
-  .small-12.medium-6.columns
+  .small-12.medium-6.columns.product-spacer
     .row
       .small-4.columns
         = image_tag data.productssmall[0]["picture"], alt: data.productssmall[0]["name"]
@@ -48,3 +51,5 @@ description: 'Profile'
         h4 = data.productssmall[3]["name"]
         p = data.productssmall[3]["description"]
         p = data.productssmall[3]["container"]
+
+.product-spacer

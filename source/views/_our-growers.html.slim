@@ -1,13 +1,13 @@
 .section
   .row
-    .small-12.columns
+    .small-12.columns.product-spacer
       h2 Our growers
 
   .row.align-middle
     - data.growers.each do |grower|
-      .small-12.medium-4.columns
+      .small-12.medium-4.columns.product-spacer
         = image_tag grower.picture, alt: grower.name
-      .small-12.medium-6.columns
+      .small-12.medium-6.columns.product-spacer.align-middle
         h4 = grower.name
         p = grower.description
         p

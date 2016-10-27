@@ -3,9 +3,10 @@ title: Pat Lydbrook
 description: 'Profile'
 ---
 
-.row
-  .small-12.columns
-    h2 Our growers
+.section
+  .row
+    .small-12.columns
+      h2 Our growers
 
 .row.align-middle
     .small-12.medium-6.columns
@@ -14,37 +15,41 @@ description: 'Profile'
       h4 = data.growers[1]["name"]
       p = data.growers[1]["description"]
 
-.row.align-center
-  .medium-9.columns
-    p = data.growers[1]["story"]
+.section
+  .row.align-center
+    .medium-9.columns
+      p = data.growers[1]["story"]
 
 .row
   .small-12.columns
     h4 = "Pat's products"
 
-.row
-  .small-12.medium-6.columns
-    .row
-      .small-4.columns
-        = image_tag data.productsbig[1]["picture"], alt: data.productsbig[1]["name"]
-      .small-8.columns
-        h4 = data.productsbig[1]["name"]
-        p = data.productsbig[1]["description"]
-        p = data.productsbig[1]["container"]
-  .small-12.medium-6.columns
-    .row
-      .small-4.columns
-        = image_tag data.productssmall[4]["picture"], alt: data.productssmall[4]["name"]
-      .small-8.columns
-        h4 = data.productssmall[4]["name"]
-        p = data.productssmall[4]["description"]
-        p = data.productssmall[4]["container"]
-.row
-  .small-12.medium-6.columns
-    .row
-      .small-4.columns
-        = image_tag data.productssmall[5]["picture"], alt: data.productssmall[5]["name"]
-      .small-8.columns
-        h4 = data.productssmall[5]["name"]
-        p = data.productssmall[5]["description"]
-        p = data.productssmall[5]["container"]
+.section
+  .row
+    .small-12.medium-6.columns.product-spacer
+      .row
+        .small-4.columns
+          = image_tag data.productsbig[1]["picture"], alt: data.productsbig[1]["name"]
+        .small-8.columns
+          h4 = data.productsbig[1]["name"]
+          p = data.productsbig[1]["description"]
+          p = data.productsbig[1]["container"]
+    .small-12.medium-6.columns
+      .row
+        .small-4.columns
+          = image_tag data.productssmall[4]["picture"], alt: data.productssmall[4]["name"]
+        .small-8.columns
+          h4 = data.productssmall[4]["name"]
+          p = data.productssmall[4]["description"]
+          p = data.productssmall[4]["container"]
+  .row
+    .small-12.medium-6.columns
+      .row
+        .small-4.columns
+          = image_tag data.productssmall[5]["picture"], alt: data.productssmall[5]["name"]
+        .small-8.columns
+          h4 = data.productssmall[5]["name"]
+          p = data.productssmall[5]["description"]
+          p = data.productssmall[5]["container"]
+
+.product-spacer

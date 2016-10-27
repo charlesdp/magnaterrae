@@ -2,10 +2,10 @@
 title: Mathieu Gilly
 description: 'Profile'
 ---
-
-.row
-  .small-12.columns
-    h2 Our growers
+.section
+  .row
+    .small-12.columns
+      h2 Our growers
 
 .row.align-middle
     .small-12.medium-6.columns
@@ -14,28 +14,32 @@ description: 'Profile'
       h4 = data.growers[5]["name"]
       p = data.growers[5]["description"]
 
-.row.align-center
-  .medium-9.columns
-    p = data.growers[5]["story"]
+.section
+  .row.align-center
+    .medium-9.columns
+      p = data.growers[5]["story"]
 
 .row
   .small-12.columns
     h4 = "Mathieu's products"
 
-.row
-  .small-12.medium-6.columns
-    .row
-      .small-4.columns
-        = image_tag data.productsbig[5]["picture"], alt: data.productsbig[5]["name"]
-      .small-8.columns
-        h4 = data.productsbig[5]["name"]
-        p = data.productsbig[5]["description"]
-        p = data.productsbig[5]["container"]
-  .small-12.medium-6.columns
-    .row
-      .small-4.columns
-        = image_tag data.productssmall[2]["picture"], alt: data.productssmall[2]["name"]
-      .small-8.columns
-        h4 = data.productssmall[2]["name"]
-        p = data.productssmall[2]["description"]
-        p = data.productssmall[2]["container"]
+.section
+  .row
+    .small-12.medium-6.columns
+      .row
+        .small-4.columns
+          = image_tag data.productsbig[5]["picture"], alt: data.productsbig[5]["name"]
+        .small-8.columns
+          h4 = data.productsbig[5]["name"]
+          p = data.productsbig[5]["description"]
+          p = data.productsbig[5]["container"]
+    .small-12.medium-6.columns
+      .row
+        .small-4.columns
+          = image_tag data.productssmall[2]["picture"], alt: data.productssmall[2]["name"]
+        .small-8.columns
+          h4 = data.productssmall[2]["name"]
+          p = data.productssmall[2]["description"]
+          p = data.productssmall[2]["container"]
+
+.product-spacer

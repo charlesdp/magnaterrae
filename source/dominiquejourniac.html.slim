@@ -3,9 +3,10 @@ title: Dominique Journiac
 description: 'Profile'
 ---
 
-.row
-  .small-12.columns
-    h2 Our growers
+.section
+  .row
+    .small-12.columns
+      h2 Our growers
 
 .row.align-middle
     .small-12.medium-6.columns
@@ -14,20 +15,24 @@ description: 'Profile'
       h4 = data.growers[3]["name"]
       p = data.growers[3]["description"]
 
-.row.align-center
-  .medium-9.columns
-    p = data.growers[3]["story"]
+.section
+  .row.align-center
+    .medium-9.columns
+      p = data.growers[3]["story"]
 
 .row
   .small-12.columns
     h4 = "Dominique's products"
 
-.row
-  .small-12.medium-6.columns
-    .row
-      .small-4.columns
-        = image_tag data.productsbig[0]["picture"], alt: data.productsbig[0]["name"]
-      .small-8.columns
-        h4 = data.productsbig[0]["name"]
-        p = data.productsbig[0]["description"]
-        p = data.productsbig[0]["container"]
+.section
+  .row
+    .small-12.medium-6.columns
+      .row
+        .small-4.columns
+          = image_tag data.productsbig[0]["picture"], alt: data.productsbig[0]["name"]
+        .small-8.columns
+          h4 = data.productsbig[0]["name"]
+          p = data.productsbig[0]["description"]
+          p = data.productsbig[0]["container"]
+
+.product-spacer
