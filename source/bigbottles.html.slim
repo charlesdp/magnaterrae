@@ -10,7 +10,7 @@ description: 'Organic juices'
 
 .row
   - data.productsbig.each do |product|
-    .small-12.medium-6.columns
+    .small-12.medium-6.columns.product-spacer
       .row
         .small-4.columns
           = image_tag product.picture, alt: product.name
@@ -19,12 +19,14 @@ description: 'Organic juices'
           p = product.description
           p = product.container
 
-.row
-  small-12.columns
-    h3 Your first litter is on us! Collect your present
-    = link_to 'Here', '/products', class: 'button large'
-    markdown:
-          - Show the values you stand for
-          - Stop worrying about shelf life
-          - Get amazing products!
-
+.section
+  .row
+    small-12.columns.text-center
+      h3 Your first litter is on us!
+      
+      
+      p Show the values you stand for
+      p Stop worrying about shelf life
+      p Get amazing products!
+      
+      = link_to ' Collect your present here', '/products', class: 'button large'

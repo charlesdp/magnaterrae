@@ -1,13 +1,14 @@
-.row
-  .small-12.columns
-    h2 Our growers
+.section
+  .row
+    .small-12.columns
+      h2 Our growers
 
-.row.align-middle
-  - data.growers.each do |grower|
-    .small-12.medium-4.columns
-      = image_tag grower.picture, alt: grower.name
-    .small-12.medium-6.columns
-      h4 = grower.name
-      p = grower.description
-      p = grower.products
-      = link_to "here", grower.link
+  .row.align-middle
+    - data.growers.each do |grower|
+      .small-12.medium-4.columns
+        = image_tag grower.picture, alt: grower.name
+      .small-12.medium-6.columns
+        h4 = grower.name
+        p = grower.description
+        p
+          = link_to grower.products, grower.link

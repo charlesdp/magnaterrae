@@ -1,9 +1,10 @@
-.row.align-center
-  .medium-7.columns
-    - data.reviews.each do |review|
-      blockquote
-        = review.quote
-        cite
-          => review.name
-          '—
-          = review.job
+.section
+  .row.align-center
+    .medium-7.columns
+      - data.reviews.each do |review|
+        blockquote
+          = review.quote
+          cite
+            => review.name
+            '—
+            = review.job

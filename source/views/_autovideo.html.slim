@@ -1,5 +1,21 @@
-video.fillWidth autoplay="" loop=""
-  source src="assets/videos/magnaterrae.mp4" type="video/mp4"
-    | 'Your browser does not support the video tag. I suggest you upgrade your browser.
-    source src="assets/videos/magnaterrae.webm" type="video/webm"
-      | 'Your browser does not support the video tag. I suggest you upgrade your browser.
+.m-video
+  .video-container
+    .filter
+      .filter--title
+        .main-header.text-center
+          .logo
+            = image_tag 'logos/logo.svg', width: 200
+          h1 MATCHER
+        .main-text.text-center
+          p Matching B2B companies with local, short-term employees.
+          p
+            | Find what you need
+            strong easy
+            | and
+            = succeed "." do
+              strong fast
+    video.fillWidth autoplay="" loop="" 
+      source src="assets/videos/magnaterrae.mp4" type="video/mp4" 
+        | 'Your browser does not support the video tag. I suggest you upgrade your browser.
+        source src="assets/videos/magnaterrae.webm" type="video/webm" 
+          | 'Your browser does not support the video tag. I suggest you upgrade your browser.
