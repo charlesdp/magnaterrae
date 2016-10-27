@@ -1,5 +1,7 @@
 require 'slim'
 
+set :site_url, ""
+
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 activate :livereload
 activate :directory_indexes
@@ -53,11 +55,11 @@ configure :build do
     rules: [{:user_agent => '*', :allow => %w(/)}],
     sitemap: data.settings.site.url+'/sitemap.xml'
 
+  # Use this for github.io gh-pages
+  activate :relative_assets
+  set :relative_links, true
 end
 
-# Use this for github.io gh-pages
-set :url_root, 'https://charlesdp.github.io/magnaterrae'
-set :relative_links, true
 
 # Push-it to the web
 activate :deploy do |deploy|
