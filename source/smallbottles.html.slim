@@ -13,7 +13,7 @@ description: 'Organic juices'
     .small-12.medium-6.columns
       .row
         .small-4.columns
-          = image_tag "products/#{product.picture}", alt: product.name
+          = image_tag product.picture, alt: product.name
         .small-8.columns
           h4 = product.name
           p = product.description

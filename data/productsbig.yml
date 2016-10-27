@@ -2,29 +2,29 @@
   name: "Organic Grape Juice"
   description: Light, not too sweet nor too dry, this organic grape juice is just what nature does best. Workshop pressed. 100% Organic.
   container: 1L
-  picture: Organic-Grape-Juice.jpg
+  picture: "products/Organic-Grape-Juice.jpg"
 -
   name: "Organic Pear & Apple Juice"
   description: Permaculture grown Pear and Apple Juice. Not too sweet nor too dry. Tastes just beautiful. Farm pressed. 100% Organic.
   container: 1L
-  picture: Organic-Apple-Pear-Juice.jpg
+  picture: "products/Organic-Apple-Pear-Juice.jpg"
 -
   name: "Artisanal Prune Juice"
   description: Thin, light, it tastes beautiful. Grown on the sunny fields of the south of France. Workshop pressed.
   container: 75 cl
-  picture: Organic-Apple-and-Mulberry-Juice.jpg
+  picture: "products/Organic-Apple-and-Mulberry-Juice.jpg"
 -
   name: "Organic Apricot Nectar"
   description: Thick, from organic soil, it brings you straight in the sunny fields it is growing on. Workshop pressed. 100% Organic.
   container: 1L
-  picture: Organic-Apricot-Nectar.jpg
+  picture: "products/Organic-Apricot-Nectar.jpg"
 -
   name: "Organic Prune Nectar"
   description: Thick, from organic soil, it brings you straight in the sunny field it is growing on. Workshop pressed. 100% Organic.
   container: 1L
-  picture: Organic-Prune-Nectar.jpg
+  picture: "products/Organic-Prune-Nectar.jpg"
 -
   name: "Organic Apple & Blackcurrant Juice"
   description: Thin, light, fresh and authentic. Beautiful apple juice enliven by blackcurrant. Workshop pressed. 100% Organic.
   container: 1L
-  picture: Organic-Apple-and-Blackcurrant-Juice.jpg
+  picture: "products/Organic-Apple-and-Blackcurrant-Juice.jpg"
