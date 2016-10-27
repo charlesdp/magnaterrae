@@ -5,8 +5,8 @@ site:
   i18n: en
   geo:
     placename: 'Brussels, Belgium'
-    position:
-    region:
+    position: 50.8503° N, 4.3517° E
+    region: Brussels
   url: 'https://charlesdp.github.io/magnaterrae'
   logo: ''
   author: Charles De Poortere

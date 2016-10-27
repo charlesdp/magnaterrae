@@ -57,7 +57,7 @@ configure :build do
 
   # Use this for github.io gh-pages
   activate :relative_assets
-  set :site_url, "magnaterrae"
+  set :site_url, "/magnaterrae"
 end
 
 # Push-it to the web
