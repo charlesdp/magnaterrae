@@ -1,6 +1,6 @@
 require 'slim'
 
-set :site_url, ""
+set :site_url, "/magnaterrae"
 
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 activate :livereload
@@ -57,7 +57,7 @@ configure :build do
 
   # Use this for github.io gh-pages
   activate :relative_assets
-  set :site_url, "/magnaterrae"
+  set :site_url, "magnaterrae"
 end
 
 # Push-it to the web
