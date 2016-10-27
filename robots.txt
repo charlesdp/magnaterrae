@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://github.com/flexbox/codeless/sitemap.xml
+Sitemap: https://charlesdp.github.io/magnaterrae//sitemap.xml
