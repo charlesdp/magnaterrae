@@ -1,15 +1,4 @@
-#picture {
+#picture > img{
   border-radius: 4px;
   box-shadow: 2px 2px 7px 0 #333333;
-}
-
-#button { // DOES NOT WORK : (
-  &.radius {
-    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-    border-radius: 3px;
-  }
-  &.round {
-    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-    border-radius: 1000px;
-  }
 }
