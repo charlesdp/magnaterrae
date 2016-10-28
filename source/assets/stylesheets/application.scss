@@ -3,29 +3,10 @@
 @import 'foundation-sites/scss/global';
 @import 'foundation-sites/scss/foundation';
 
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-.section {
-  padding: 40px 0;
-  &:first-child {
-    padding-top: 0;
-  }
-
-  &:last-child {
-    padding-bottom: 0;
-  }
-}
-
-.product-spacer {
-  margin-bottom: 20px;
-}
 @import 'colors';
-@import 'avatar';
-@import 'center';
+@import 'alignment';
 @import 'video';
+@import 'top-bar';
 
 $global-flexbox: true;
 

@@ -4,33 +4,36 @@ description: 'Organic juices'
 ---
 
 .section
-  .row
-    .small-12.columns
-      h1 Products
-      p Our 25 & 33 selection
+  .container
+    .row
+      .small-12.columns
+        h1 Products
+        p Our 25 & 33 selection
 
 .section
-  .row
-    - data.productssmall.each do |product|
-      .small-12.medium-6.columns.product-spacer
-        .row
-          .small-4.columns
-            = image_tag product.picture, alt: product.name
-          .small-8.columns
-            h4 = product.name
-            p = product.description
-            p = product.container
+  .container
+    .row
+      - data.productssmall.each do |product|
+        .small-12.medium-6.columns.product-spacer
+          .row
+            .small-4.columns
+              = image_tag product.picture, alt: product.name
+            .small-8.columns
+              h4 = product.name
+              p = product.description
+              p = product.container
 
 .section
-  .row
-    small-12.columns.text-center
-      h3 Your first litter is on us!
+  .container
+    .row
+      small-12.columns.text-center
+        h3 Your first litter is on us!
 
 
-      p Show the values you stand for
-      p Stop worrying about shelf life
-      p Get amazing products!
+        p Show the values you stand for
+        p Stop worrying about shelf life
+        p Get amazing products!
 
-      = link_to ' Collect your present here', '/', class: 'button large'
+        = link_to ' Collect your present here', '/', class: 'button large'
 
 .product-spacer
