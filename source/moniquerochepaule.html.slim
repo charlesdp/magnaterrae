@@ -4,11 +4,13 @@ description: 'Profile'
 ---
 
 .section
-  .row
-    .small-12.columns
-      h2 Our growers
+  .container
+    .row
+      .small-12.columns
+        h2 Our growers
 
-.row.align-middle
+.container
+  .row.align-middle
     .small-12.medium-6.columns
       = image_tag data.growers[4]["picture"], alt: data.growers[4]["name"]
     .small-12.medium-6.columns.align-top
@@ -16,15 +18,17 @@ description: 'Profile'
       p = data.growers[4]["description"]
 
 .section
-  .row.align-center
-    .medium-9.columns
-      p = data.growers[4]["story"]
+  .container
+    .row.align-center
+      .medium-9.columns
+        p = data.growers[4]["story"]
 
-.row
-  .small-12.columns
-    h4 = "Monique's products"
+.container
+  .row
+    .small-12.columns.product-spacer
+      h4 = "Monique's products"
 
-.section
+.container
   .row
     .small-12.medium-6.columns
       .row
