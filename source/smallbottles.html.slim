@@ -16,8 +16,8 @@ description: 'Organic juices'
       - data.productssmall.each do |product|
         .small-12.medium-6.columns.product-spacer
           .row
-            .small-4.columns
-              = image_tag product.picture, alt: product.name
+            .small-4.columns.picture
+              #picture = image_tag product.picture, alt: product.names
             .small-8.columns
               h4 = product.name
               p = product.description

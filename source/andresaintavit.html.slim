@@ -12,7 +12,7 @@ description: 'Profile'
 .container
   .row.align-middle
     .small-12.medium-6.columns
-      = image_tag data.growers[6]["picture"], alt: data.growers[6]["name"]
+      #picture = image_tag data.growers[6]["picture"], alt: data.growers[6]["name"]
     .small-12.medium-6.columns.align-top
       h4 = data.growers[6]["name"]
       p = data.growers[6]["description"]
@@ -33,7 +33,7 @@ description: 'Profile'
     .small-12.medium-6.columns
       .row
         .small-4.columns
-          = image_tag data.productsbig[2]["picture"], alt: data.productsbig[2]["name"]
+          #picture = image_tag data.productsbig[2]["picture"], alt: data.productsbig[2]["name"]
         .small-8.columns
           h4 = data.productsbig[2]["name"]
           p = data.productsbig[2]["description"]
@@ -41,7 +41,7 @@ description: 'Profile'
     .small-12.medium-6.columns
       .row
         .small-4.columns
-          = image_tag data.productsbig[4]["picture"], alt: data.productsbig[4]["name"]
+          #picture = image_tag data.productsbig[4]["picture"], alt: data.productsbig[4]["name"]
         .small-8.columns
           h4 = data.productsbig[4]["name"]
           p = data.productsbig[4]["description"]
