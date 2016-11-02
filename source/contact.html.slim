@@ -5,37 +5,35 @@ description: 'Get in touch with us'
 
 .section
   .container
-    form
+    form action="https://formspree.io/c.depoortere28@gmail.com" method="POST"
       .row
         .medium-6.columns
           label
             | First name
-            input placeholder="First name" type="text"
+            input name="First name" type="text"
 
         .medium-6.columns
           label
             | Last name
-            input placeholder="Last name" type="text" /
+            input name="Last name" type="text" /
         .medium-6.columns
           label
             | Organisation
-            input placeholder="Organisation" type="text" /
+            input name="Organisation" type="text" /
         .medium-6.columns
           label
             | Phone number
-            input placeholder="Phone number" type="text" /
+            input name="Phone number" type="text" /
         .medium-6.columns
           label
             | Email address
-            input placeholder="Email address" type="text" /
+            input name="Email address" type="text" /
         .medium-6.columns
           label
             | Message
-            input placeholder="Message" type="text" /
-
-
-.section
-  .container
-    .row.text-center
-      .medium-12.columns
-        = link_to 'Send', '/', class: 'button large'
+            input name="Message" type="text" /
+      .section
+        .container
+          .row.text-center
+            .medium-12.columns
+              button type="submit"  Send
